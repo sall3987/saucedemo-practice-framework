@@ -44,6 +44,7 @@ test('Verify that selected dropdown values are visible', { tag: ['@regression', 
         await homePage.productSortAssert(data, firstProductTitle);  //verifying that products are sorted accordingly
         await assert.textAssertion(homePage.dropdown_active_value, data); //asserting that selected value is active
     }
+    
 
 });
 
